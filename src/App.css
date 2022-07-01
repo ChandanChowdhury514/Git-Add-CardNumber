@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Neucha&display=swap'); 
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Montserrat';
+}
+
+section {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container{
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.left{
+  width: 45%;
+  height: 400px;
+  background-color: rgba(16, 17, 17, 0.11);
+  border-radius: 10px;
+}
+.right{
+  width: 30%;
+  min-height: 200px;
+  background-color:#1f131954;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:30px;
+  border-radius: 10px;
+  color: white;
+  margin-left: -300px;
+  
+}
+
+.right h2 {
+  font-size: 20px;
+  font-weight:bold;
+  text-align: center;
+}
+.right .txtField{
+  
+  font-weight: 500;
+  color: white;
+
+}
+.right .txtField .label{
+  color: blue;
+}
+.right .btn 
+{
+  border-radius: 10px;
+  letter-spacing: 2px;
+
+}
+.btn{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
